@@ -1,0 +1,6 @@
+git log —-stat ( statistics of files that have changed in last commit)
+git clone *link* (clone the directory of the link inserted)
+git diff fileOld fileNew (difference in the two files)
+git checkout field ( detached HEAD state. good to go to previous commits to see where bug was introduced)
+
+mv where/file/is/located/and/name  where/file/should/be/moved 

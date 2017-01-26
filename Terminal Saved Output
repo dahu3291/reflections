@@ -1,0 +1,676 @@
+ajibade ~ $ cd pappu-pakia
+ajibade ((71d5270...)) pappu-pakia $ git log --stat
+commit 71d52709ddc4066e7a79a1d0a412e43429a0cdeb
+Author: Rishabh <rishabh.pugalia@gmail.com>
+Date:   Thu Dec 27 11:17:10 2012 +0530
+
+    removing old readme
+
+ README.md.backup | 64 --------------------------------------------------------
+ 1 file changed, 64 deletions(-)
+
+commit 7c81b8021ec16c5c7b240220314d01200957d605
+Author: Rishabh <rishabh.pugalia@gmail.com>
+Date:   Thu Dec 27 11:11:08 2012 +0530
+
+    removing an ad
+
+ index.htm | 14 --------------
+ 1 file changed, 14 deletions(-)
+
+commit 9c76f50d1aaaa3ac9841286cca2b49bc67f29ae9
+Author: Rishabh <rishabh.pugalia@gmail.com>
+Date:   Thu Dec 27 11:08:17 2012 +0530
+
+    updating description, etc.
+
+ css/main.css |   2 +-
+ index.htm    |  48 ++++------------------
+ kong.htm     | 132 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 3 files changed, 140 insertions(+), 42 deletions(-)
+
+commit 003c8c197cd3b1e5b28b58f53ee14d7ebaa9bb3a
+Author: Rishabh Pugalia <rishabh.pugalia@gmail.com>
+Date:   Wed Dec 12 13:59:27 2012 +0530
+
+    speeding clones up
+
+ js/pappu.js | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 746f762e38b5bbb7d0b837464ef6ec3f8ee5bf91
+Author: Rishabh Pugalia <rishabh.pugalia@gmail.com>
+Date:   Mon Dec 10 14:28:15 2012 +0530
+
+    Update index.htm
+
+ index.htm | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit c12dc49709452bcfb6084b3cc7dc86042cb78ca3
+Author: Rishabh <rishabh.pugalia@gmail.com>
+Date:   Sat Dec 1 15:36:57 2012 +0530
+
+    game over was executing even after game over - no need really. lets save memory power
+
+ js/main.js | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit 3d4ff5c87b906a5efd83b85d5d5f496864229db0
+ajibade ((71d5270...)) pappu-pakia $ git checkout -
+Previous HEAD position was 71d5270... removing old readme
+HEAD is now at 547f417... refactoring collision detection
+ajibade ((547f417...)) pappu-pakia $ git checkout -
+Previous HEAD position was 547f417... refactoring collision detection
+HEAD is now at 71d5270... removing old readme
+ajibade ((71d5270...)) pappu-pakia $ git checkout -
+Previous HEAD position was 71d5270... removing old readme
+HEAD is now at 547f417... refactoring collision detection
+ajibade ((547f417...)) pappu-pakia $ git log --all
+commit fa4c6bade4970c282b3870ad16f1bde8164663a9
+Author: Rishabh <rishabh.pugalia@gmail.com>
+Date:   Sat Jan 5 14:41:49 2013 +0530
+
+    changing flattr link
+
+commit 708bcce690e5faa5739bd471507c102ea16b77f7
+Author: Rishabh <rishabh.pugalia@gmail.com>
+Date:   Mon Dec 31 23:18:16 2012 +0530
+
+    pressing down arrow wont cause scroll down anymore
+
+commit 547f4171a82ec6429d002c1acef357aec41d3f17
+Author: Rishabh Pugalia <rishabh.pugalia@gmail.com>
+Date:   Fri Dec 28 16:27:21 2012 +0530
+
+    refactoring collision detection
+
+commit 71d52709ddc4066e7a79a1d0a412e43429a0cdeb
+Author: Rishabh <rishabh.pugalia@gmail.com>
+Date:   Thu Dec 27 11:17:10 2012 +0530
+
+    removing old readme
+ajibade ((547f417...)) pappu-pakia $ git checkout fa4c6bade4970c282b3870ad16f1bde8164663a9
+Previous HEAD position was 547f417... refactoring collision detection
+HEAD is now at fa4c6ba... changing flattr link
+ajibade ((fa4c6ba...)) pappu-pakia $ git log --stat
+commit fa4c6bade4970c282b3870ad16f1bde8164663a9
+Author: Rishabh <rishabh.pugalia@gmail.com>
+Date:   Sat Jan 5 14:41:49 2013 +0530
+
+    changing flattr link
+
+ index.htm | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 708bcce690e5faa5739bd471507c102ea16b77f7
+Author: Rishabh <rishabh.pugalia@gmail.com>
+Date:   Mon Dec 31 23:18:16 2012 +0530
+
+    pressing down arrow wont cause scroll down anymore
+
+ js/main.js | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+commit 547f4171a82ec6429d002c1acef357aec41d3f17
+Author: Rishabh Pugalia <rishabh.pugalia@gmail.com>
+Date:   Fri Dec 28 16:27:21 2012 +0530
+
+    refactoring collision detection
+
+ js/utils.js | 21 +++++++++++++--------
+ 1 file changed, 13 insertions(+), 8 deletions(-)
+
+commit 71d52709ddc4066e7a79a1d0a412e43429a0cdeb
+Author: Rishabh <rishabh.pugalia@gmail.com>
+Date:   Thu Dec 27 11:17:10 2012 +0530
+
+    removing old readme
+
+ README.md.backup | 64 --------------------------------------------------------
+ 1 file changed, 64 deletions(-)
+
+commit 7c81b8021ec16c5c7b240220314d01200957d605
+Author: Rishabh <rishabh.pugalia@gmail.com>
+Date:   Thu Dec 27 11:11:08 2012 +0530
+
+    removing an ad
+
+ index.htm | 14 --------------
+ 1 file changed, 14 deletions(-)
+
+commit 9c76f50d1aaaa3ac9841286cca2b49bc67f29ae9
+Author: Rishabh <rishabh.pugalia@gmail.com>
+Date:   Thu Dec 27 11:08:17 2012 +0530
+
+    updating description, etc.
+
+ css/main.css |   2 +-
+ index.htm    |  48 ++++------------------
+ kong.htm     | 132 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 3 files changed, 140 insertions(+), 42 deletions(-)
+
+commit 003c8c197cd3b1e5b28b58f53ee14d7ebaa9bb3a
+Author: Rishabh Pugalia <rishabh.pugalia@gmail.com>
+Date:   Wed Dec 12 13:59:27 2012 +0530
+
+    speeding clones up
+
+ js/pappu.js | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 746f762e38b5bbb7d0b837464ef6ec3f8ee5bf91
+ajibade ((fa4c6ba...)) pappu-pakia $ git diff 003c8c197cd3b1e5b28b58f53ee14d7ebaa9bb3a 71d52709ddc4066e7a79a1d0a412e43429a0cdeb
+diff --git a/README.md.backup b/README.md.backup
+deleted file mode 100644
+index a9d6092..0000000
+--- a/README.md.backup
++++ /dev/null
+@@ -1,64 +0,0 @@
+-Here at GitHub, we're no strangers to hosting or sponsoring hackathons. With the growing number of games and game development resources on GitHub, we thought it was about time to throw our very own game jam!
+-
+-## The Challenge
+-
+-You have the entire month of November to create a **web-based** game *loosely* built around one or more of the following themes:
+-
+-* forking (or forks)
+-* branching (or branches)
+-* cloning (or clones)
+-* pushing
+-* pulling
+-
+-What do we mean by **loosely** based on these concepts? We literally mean, *loosely* based. Some examples might be a FPS where you throw forks at water balloons, an educational game about DNA cloning, or perhaps a platformer where you push and pull objects.
+-
+-Your game. Your rules. You can participate as an individual or as a team. You're encouraged to use open source libraries, frameworks, graphics, and sounds.
+-
+-## Prizes
+-
+-We have 5 shiny new iPads with Retina displays (64GB wifi models) to give to our winners (or Apple Store Credit equivalent). Runners up will receive GitHub swag of their choice ($100 credit for the [GitHub Shop](http://shop.github.com/)). If you have a team submission, we'll give you Apple Store credit equal to the value of the iPad. You can split it with your teammates as appropriate.
+-
+-All of the winners and runners up will be showcased on our blog.
+-
+-<img src="http://i.imgur.com/lxZrD.png" style="border:0;">
+-
+-### Everyone's a winner!
+-
+-All participants will receive a limited edition [Coderwall](http://www.coderwall.com) badge as shown above. Winners and runners up will also get their own special version of it.
+-
+-## Judging
+-
+-We have a number of awesome judges who graciously volunteered to take a look at all the entries!
+-
+-* [David Czarnecki](http://twitter.com/CzarneckiD), Lead Engineer at Agora Games
+-* [Eric Preisz](https://twitter.com/epreisz), CEO of GarageGames
+-* [Matt Hackett](https://twitter.com/#!/richtaur), Co-founder of Lost Decade Games
+-* [Lee Reilly](http://twitter.com/leereilly), Gamer Dad and Software Developer at GitHub
+-* [Romana Ramzan](https://twitter.com/Manak/), Denki's Player Champion. PhD Researcher. Organiser of Scottish Game Jam.
+-
+-## Rules
+-
+-* To qualify for entry as an **individual** you must fork the [github/game-off-2012](https://github.com/github/game-off-2012) repository to your individual account
+-* To qualify for entry as a **team** you must fork the [github/game-off-2012](https://github.com/github/game-off-2012) to a [free organization account](https://github.com/settings/organizations)
+-* All entries must be web-based i.e. playable in a browser. HTML5, WebGL, Unity, Torque 3D, Node JS, Flash is all possible - just be sure the source is made available on your fork.
+-* You must be over the age of 13
+-
+-## Instructions
+-
+-* If you don't already have a GitHub account, [sign up now](https://github.com/signup/free) - it's free!
+-* Fork the [github/game-off-2012](https://github.com/github/game-off-2012) repository to your individual account (or to a free organization account)
+-* Be sure to follow @github on Twitter for updates
+-* Make sure your code is pushed to the master branch of before Dec 1st!
+-* Make sure you have a README file with a brief description, what open source projects (if any) you used, and a screenshot.
+-* Your repo should have a brief description and a URL where the game is playable entered into the fields shown below (this will make our judging process easier):
+-
+-![](https://img.skitch.com/20121010-x2ecpu95fi91us6hbfehg2dgit.png)
+-
+-Winners will be announced before Christmas :santa:
+-
+-# Comments / Questions / Help
+-
+-* New to Git, GitHub, and/or version control? Check out our [help documentation](https://help.github.com/) to get started!
+-* Questions about Git/GitHub? Please email support@github.com and be sure to include 'GitHub Game Off' in the subject.
+-* Questions specific to the GitHub Game Off? Please [create an issue](https://github.com/github/game-off-2012/issues/new). That will be the offical FAQ.
+-* The official Twitter hashtag is [#ggo12](https://twitter.com/search/realtime?q=%23ggo12).
+\ No newline at end of file
+diff --git a/css/main.css b/css/main.css
+index 1547c79..4247f00 100644
+--- a/css/main.css
++++ b/css/main.css
+@@ -293,7 +293,7 @@ canvas#game_bg {
+ 
+ /* Share Buttons */
+ #share_btns {
+-       max-width: 440px;
++       max-width: 420px;
+        overflow: hidden;
+        margin: 0 auto;
+ }
+diff --git a/index.htm b/index.htm
+index 6d31038..0af425c 100644
+--- a/index.htm
++++ b/index.htm
+@@ -108,6 +108,11 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+ 
+           <!-- Share -->
+ 
++            <div class="share-button">
++    <a href="http://flattr.com/thing/1034079/Pappu-Pakia" target="_blank">
++<img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a>
++  </div>
++
+   <!-- google plus -->
+   <div class="share-button">
+     <!-- Place this tag where you want the share button to render. -->
+@@ -138,20 +143,12 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+ 
+   <!-- Twitter -->
+   <div class="share-button">
+-    <a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-count="none" data-via="_rishabhp">Tweet</a>
++    <a href="https://twitter.com/share" class="twitter-share-button" data-lang="en" data-via="_rishabhp">Tweet</a>
+     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+   </div>
+ 
+ 
+-  <div class="share-button">
+-    <a href="http://flattr.com/thing/1034079/Pappu-Pakia" target="_blank">
+-<img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0" /></a>
+-  </div>
+-      <!-- /Share -->
+-
+-    <div class="share-button comments-button">
+-      <a href="#disqus_thread">Comments</a>
+-    </div>
++<!-- /Share -->
+ 
+   </div>
+     <div class="chrome-button">
+@@ -190,11 +187,6 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+       Collisions are not super strict
+       to make the gameplay a little less harder.
+     </p>
+-
+-    <p>
+-      No Libraries/Frameworks used. All Custom Code and Custom Physics.
+-    </p>
+-
+     <p>
+       Hit Enter or Spacebar keys to (re)start the game.
+     </p>
+@@ -214,14 +206,6 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+ </script>
+   </div>
+ 
+-
+-    <h3>Challenge</h3>
+-    <p>
+-      Post your high score in the comments below so that I can beat it.
+-      Come back after few mins and beat me again. I am sure we can keep on
+-      doing this forever!
+-    </p>
+-
+     <h3>Credits</h3>
+     <p>
+       Handsomely coded by <a href="http://twitter.com/_rishabhp">Rishabh</a>.
+@@ -244,40 +228,8 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+       <a href="http://dribbble.com/cssdeck">Dribbble</a> |
+       <a href="http://codetheory.in/contact/">Contact Us</a>
+     </p>
+-
+-    <h3>You May Also Like</h3>
+-    <p>
+-      <a href="http://cssdeck.com/labs/html5-doodle-jump/8">HTML5 Doodle Jump</a> |
+-      <a href="http://cssdeck.com/labs/classic-snake-game-with-html5-canvas">Snake Game</a> |
+-      <a href="http://cssdeck.com/labs/ping-pong-game-tutorial-with-html5-canvas-and-sounds">Ping Pong</a>
+-    </p>
+-
+-    <h3>Wanna Talk ?</h3>
+-    <p>
+-      Want to chat and waste some time ? Sure, we're friendly!
+-      Let us know your prefer method of chat via the Contact Us
+-      page linked above.
+-    </p>
+-
+-    <h3>Facts</h3>
+-    <p>If you see ads, then you see it because we can put it. #win</p>
+-    <p>Hard to optimize HTML5 games for Computers, let alone mobiles. #lose</p>
+   </footer>
+ 
+-  <div class="gads">
+-    <script type="text/javascript"><!--
+-google_ad_client = "ca-pub-5814774904969415";
+-/* khelein 728x90 */
+-google_ad_slot = "6060495608";
+-google_ad_width = 728;
+-google_ad_height = 90;
+-//-->
+-</script>
+-<script type="text/javascript"
+-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+-</script>
+-  </div>
+-
+   <!-- Disqus -->
+     <div id="disqus_thread"></div>
+   <script type="text/javascript">
+diff --git a/kong.htm b/kong.htm
+new file mode 100644
+index 0000000..8d170b1
+--- /dev/null
++++ b/kong.htm
+@@ -0,0 +1,132 @@
++<!doctype html>
++<html>
++<head>
++  <meta charset="utf-8">
++  <title>Pappu Pakia | Khelein</title>
++
++  <link rel="stylesheet" href="css/main.css">
++
++</head>
++
++<body>
++
++  <div class="container">
++
++    <!-- Start Screen -->
++    <div id="start_screen">
++      <h1 id="title">pappu pakia</h1>
++      <h3 id="credits">
++        by
++        <a href="http://twitter.com/SolitaryDesigns">Kushagra</a>
++        and
++        <a href="http://twitter.com/_rishabhp">Rishabh</a>
++      </h3>
++      <h3 id="last_score"></h3>
++      <h3 id="high_score"></h3>
++
++      <div class="controls"></div>
++
++      <div class="options">
++        <ul>
++          <li><a href="javascript:void(0);" id="start_game">start</a></li>
++          <li><a href="javascript:void(0);" target="_blank" id="tweet">tweet</a></li>
++          <li><a href="javascript:void(0);" target="_blank" id="fb">fb like</a></li>
++        </ul>
++      </div>
++    </div>
++    <!-- /Start Screen -->
++
++    <!-- Loading sounds -->
++    <audio id="start" loop>
++      <source src="sound/pappu-pakia2.3.ogg"  type="audio/ogg">
++      <source src="sound/pappu-pakia2.3.mp3"  type="audio/mp3">
++    </audio>
++
++    <audio id="angry_jump">
++      <source src="sound/jump1.ogg" type="audio/ogg">
++      <source src="sound/jump1.mp3" type="audio/mp3">
++    </audio>
++
++    <audio id="sad_jump">
++      <source src="sound/jump2.ogg" type="audio/ogg">
++      <source src="sound/jump2.mp3" type="audio/mp3">
++    </audio>
++
++    <audio id="happy_jump">
++      <source src="sound/jump3.ogg" type="audio/ogg">
++      <source src="sound/jump3.mp3" type="audio/mp3">
++    </audio>
++
++    <audio id="flap">
++      <source src="sound/flap.ogg" type="audio/ogg">
++      <source src="sound/flap.mp3" type="audio/mp3">
++    </audio>
++
++    <audio id="ting">
++      <source src="sound/ting.ogg" type="audio/ogg">
++      <source src="sound/ting.mp3" type="audio/mp3">
++    </audio>
++
++    <canvas id="game_bg"></canvas>
++    <canvas id="game_main"></canvas>
++
++    <div id="score_board">0</div>
++
++    <div id="invincible_timer">
++      <div id="invincible_loader"></div>
++    </div>
++
++    <a href="javascript:void(0)" id="mute"></a>
++
++    <!-- Loading Screen -->
++    <div id="loading">
++      <p id="loadText">Loading...</p>
++      <div id="barCont">
++        <div id="bar"></div>
++      </div>
++    </div>
++
++  </div>
++
++  <footer class="os">
++
++    <h3>Credits</h3>
++    <p>
++      Handsomely coded by <a href="http://twitter.com/_rishabhp">Rishabh</a>.
++      Beautiful graphics by <a href="http://twitter.com/solitarydesigns">Kushagra</a>. We're freelance web dudes.
++    </p>
++
++    <p>
++      Thanks to <a href="http://rezoner.net/">Rezoner</a> for Music.
++    </p>
++  </footer>
++
++
++  <script src="js/jquery-1.8.2.min.js"></script>
++  <script>window.mit = window.mit || {};</script>
++  <script src="js/utils.js"></script>
++  <script src="js/backgrounds.js"></script>
++  <script src="js/forks.js"></script>
++  <script src="js/branches.js"></script>
++  <script src="js/collectibles.js"></script>
++  <script src="js/pappu.js"></script>
++  <script src="js/pakia.js"></script>
++  <script src="js/main.js"></script>
++  <script src="js/loader.js"></script>
++
++<script>
++
++  var _gaq = _gaq || [];
++  _gaq.push(['_setAccount', 'UA-36603798-1']);
++  _gaq.push(['_trackPageview']);
++
++  (function() {
++    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
++    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
++    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
++  })();
++
++</script>
++
++</body>
++</html>
+ajibade ((fa4c6ba...)) pappu-pakia $ cd -
+/Users/ajibade
+ajibade ~ $ ls
+?@?B?D?I?d?%80?%85?%88?%93?%9E?	Pictures
+Applications			Public
+Desktop				PycharmProjects
+Documents			asteroids
+Downloads			getmacapps_temp
+Dropbox				git-completion.bash
+Library				git-prompt.sh
+Movies				pappu-pakia
+Music
+ajibade ~ $ cd asteroids
+ajibade ((25ede83...)) asteroids $ git log --all
+commit 3884eab839af1e82c44267484cf2945a766081f3
+Author: cbuckey <caroline@udacity.com>
+Date:   Fri Apr 29 12:33:05 2011 -0700
+
+    Add color
+
+commit 3e42136a76cf78c6c421cd720427bf6337c2d623
+Author: Doug McInnes <doug@dougmcinnes.com>
+Date:   Tue Mar 15 22:34:49 2011 -0700
+
+    now using requestAnimationFrame
+    
+    see this for more info:
+    http://paulirish.com/2011/requestanimationframe-for-smart-animating/
+
+commit 4035769377cce96a88d5c1167079e12f30492391
+Author: Doug McInnes <doug@dougmcinnes.com>
+Date:   Wed Jun 9 21:04:32 2010 -0700
+
+    frame interval was set wrong after game was paused
+
+commit 354dfdd530b1631a2834b2e9e242d31e625c9c13
+Author: Sarah Spikes <sarah@udacity.com>
+Date:   Tue Jun 1 13:06:52 2010 -0700
+
+    Make ships able to spawn on coins
+
+commit 0c6daf150d6dedb73e60966d853c699a42b3169d
+Author: Sarah Spikes <sarah@udacity.com>
+Date:   Tue Jun 1 11:30:37 2010 -0700
+
+    Make it possible to collect coins
+
+commit a3c0ae46a65126fc8db756960a1b9511942600d8
+Author: Sarah Spikes <sarah@udacity.com>
+Date:   Fri May 28 20:05:14 2010 -0700
+
+    Create helper functions
+
+commit 25ede836903881848fea811df5b687b59d962da3
+Author: Doug McInnes <doug@dougmcinnes.com>
+Date:   Wed May 26 23:52:00 2010 -0700
+
+    a couple missing ends with the ipad version
+
+commit df035382c41b4d0cda86a1aa30b53f15bef05b53
+Author: Doug McInnes <doug@dougmcinnes.com>
+ajibade ((25ede83...)) asteroids $ git checkout 3884eab839af1e82c44267484cf2945a766081f3
+Previous HEAD position was 25ede83... a couple missing ends with the ipad version
+HEAD is now at 3884eab... Add color
+ajibade ((3884eab...)) asteroids $ git log
+commit 3884eab839af1e82c44267484cf2945a766081f3
+Author: cbuckey <caroline@udacity.com>
+Date:   Fri Apr 29 12:33:05 2011 -0700
+
+    Add color
+
+commit 3e42136a76cf78c6c421cd720427bf6337c2d623
+Author: Doug McInnes <doug@dougmcinnes.com>
+Date:   Tue Mar 15 22:34:49 2011 -0700
+
+    now using requestAnimationFrame
+    
+    see this for more info:
+    http://paulirish.com/2011/requestanimationframe-for-smart-animating/
+
+commit 4035769377cce96a88d5c1167079e12f30492391
+Author: Doug McInnes <doug@dougmcinnes.com>
+Date:   Wed Jun 9 21:04:32 2010 -0700
+
+    frame interval was set wrong after game was paused
+
+commit 25ede836903881848fea811df5b687b59d962da3
+Author: Doug McInnes <doug@dougmcinnes.com>
+ajibade ((3884eab...)) asteroids $ ls
+39459__THE_bizniss__laser.wav		index.html
+51467__smcameron__missile_explosion.wav	ipad.js
+LICENSE					jquery-1.4.1.min.js
+README.md				vector_battle_regular.typeface.js
+game.js
+ajibade ((3884eab...)) asteroids $ ls -a
+.					README.md
+..					game.js
+.DS_Store				index.html
+.git					ipad.js
+39459__THE_bizniss__laser.wav		jquery-1.4.1.min.js
+51467__smcameron__missile_explosion.wav	vector_battle_regular.typeface.js
+LICENSE
+ajibade ((3884eab...)) asteroids $ cd
+ajibade ~ $ cd git reflections
+-bash: cd: git: No such file or directory
+ajibade ~ $ ls
+?@?B?D?I?d?%80?%85?%88?%93?%9E?	Pictures
+Applications			Public
+Desktop				PycharmProjects
+Documents			asteroids
+Downloads			getmacapps_temp
+Dropbox				git reflections
+Library				git-completion.bash
+Movies				git-prompt.sh
+Music				pappu-pakia
+ajibade ~ $ cd Downloads
+ajibade Downloads $ cd
+ajibade ~ $ cd git reflections
+-bash: cd: git: No such file or directory
+ajibade ~ $ cd "git reflections"
+ajibade git reflections $ ls
+ajibade git reflections $ git init
+Initialized empty Git repository in /Users/ajibade/git reflections/.git/
+ajibade (master #) git reflections $ git status
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+ajibade (master #) git reflections $ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	gitShorthand.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+ajibade (master #) git reflections $ git add gitShorthand
+fatal: pathspec 'gitShorthand' did not match any files
+ajibade (master #) git reflections $ git add gitShorthand.txt
+ajibade (master +) git reflections $ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   gitShorthand.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	lesson_2_reflections.txt
+
+ajibade (master +) git reflections $ git commit
+
+Add git terminology
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: Ajibade Dahunsi <ajibade@ajibades-mbp.attlocal.net>
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#       new file:   gitShorthand.txt
+#
+# Untracked files:
+#       lesson_2_reflections.txt
+#
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+-- INSERT --

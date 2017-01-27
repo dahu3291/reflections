@@ -1,6 +1,29 @@
-git log —-stat ( statistics of files that have changed in last commit)
-git clone *link* (clone the directory of the link inserted)
+git log —-stat ||( statistics of files that have changed in last commit)
+
+git clone *link* ||(clone the directory of the link inserted)
+
 git diff fileOld fileNew (difference in the two files)
-git checkout field ( detached HEAD state. good to go to previous commits to see where bug was introduced)
+
+git checkout field ||( detached HEAD state. good to go to previous commits to see where bug was introduced)
 
 mv where/file/is/located/and/name  where/file/should/be/moved 
+
+git log —-graph —-oneline master(branch name) coins (branch name) || (show graph of branches and their commits)
+
+git reflow show past actions
+
+git diff || (diff between working directory and staging area)
+
+git diff —staged || (diff between staging area and last commit)
+
+git branch || (show branches)
+
+git branch || (create a branch)
+
+git remote add origin *URL link of repository*
+
+git remote
+
+git remote -v
+
+git push origin master
